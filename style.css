@@ -411,3 +411,47 @@ nav a img{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+@media (max-width: 768px) {
+    #no2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #no2Img {
+        max-width: 100%;
+    }
+
+    #no4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #no4_2 button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #no1Deed span {
+        font-size: 1.2rem;
+    }
+
+    #no2Desc span,
+    #no3Desc span {
+        font-size: 1rem;
+    }
+
+    #no4_1 span {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
