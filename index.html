@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="ach-erdene.github.io/lab6-5/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>apple, hearing, trade, iphone, avialable</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="this is apple brand and you can buy new apple brands from this site">
+    <meta name="description" content="this is apple brand and you can buy new apple brands from this site. apple, hearing, trade, iphone, avialable">
     <meta property="og:title" content="Apple">
-    <meta property="og:description" content="Apple iphone avialable to trade, there is good hearing airpods">
+    <meta property="og:description" content="Apple iphone avialable to trade, there is good hearing airpods. apple, hearing, trade, iphone, avialable">
     <meta property="og:image" content="https://your-website.com/og-image.png">
     <meta property="og:url" content="https://your-website.com">
-    <meta name="twitter:title" content="Add title here">
-    <meta name="twitter:description" content="Add description here">
+    <meta name="twitter:title" content="apple, hearing, trade, iphone, avialable">
+    <meta name="twitter:description" content="apple, hearing, trade, iphone, avialable">
     <meta name="twitter:url" content="https://your-website.com/twitter-image.png">
     <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
@@ -35,46 +36,59 @@
                 <a href="#"><img src="./img/shopping-bag.png" alt="shopping-bag"></a>
         </nav>
     </header>
-    <div id="no1">
-        
-        <div id="no1Deed"><h1    >Apple Intellegence is here.</h1>
-            <span>Experience it  now on the latest iPhone, iPad, and Mac models with a free software   udpade
+    <div id="no1" itemscope itemtype="http://schema.org/WebPage">
+        <div id="no1Deed">
+            <h1 itemprop="headline">Apple Intellegence is here.</h1>
+            <span itemprop="description">Experience it  now on the latest iPhone, iPad, and Mac models with a free software   udpade
             </span>
         </div>
 
-        <div id="no1Dood">
-            <h2>Macbook Pro</h2>
-            <span>A work of smart.</span>
-            <span style="color: gray;">avialable 11.8</span>
+        <div id="no1Dood" itemscope itemtype="http://schema.org/Product">
+            <h2 itemprop="name">Macbook Pro</h2>
+            <span itemprop="description">A work of smart.</span>
+            <span style="color: gray;" itemprop="releaseDate">avialable 11.8</span>
             <div id="no1Btn">
-                <button id="btn1">Learn more</button>
-                <button id="btn2">Pre order</button>
+                <button id="btn1" itemprop="url">Learn more</button>
+                <button id="btn2" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="1999.00">1999</span>
+                    Pre order
+                </button>
             </div>    
         </div>
     </div>
 
-    <div id="no2">
+    <div id="no2" itemscope itemtype="http://schema.org/Product">
         <div id="no2Deed">
-            <h2>Mac Mini</h2>
-            <span style="color: black;">Size down. Power up.</span>
-            <span style="color: gray; font-size: 18px; margin-top: 10px;">Avialable starting 11.8</span>
+            <br>
+            <h2 itemprop="name">Mac Mini</h2>
+            <span style="color: black;" itemprop="description">Size down. Power up.</span>
+            <span style="color: gray; font-size: 18px; margin-top: 10px;" itemprop="releaseDate">Avialable starting 11.8</span>
             <div id="no2Btn">
-                <button id="btn11">Learn more</button>
-                <button id="btn22">Pre-order</button>
+                <button id="btn11" itemprop="url">Learn more</button>
+                <button id="btn22" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="899.00">899</span>
+                    Pre-order
+                </button>
             </div>
         </div>
         <div id="no2Img">
             <img src="./img/pngwing.com.png" alt="rooter">
         </div>
     </div>
-    <div id="no3">
+    <div id="no3" itemscope itemtype="http://schema.org/Product">
         <div id="no3Deed">
-            <h2>iMac</h2>
-            <span style="color: black;">Briliant.</span>
-            <span style="color: gray; font-size: 18px; margin-top: 10px;">Avialable starting 11.8</span>
+            <h2 itemprop="name">iMac</h2>
+            <span style="color: black;" itemprop="description">Briliant.</span>
+            <span style="color: gray; font-size: 18px; margin-top: 10px;" itemprop="releaseDate">Avialable starting 11.8</span>
             <div id="no2Btn">
-                <button id="btn31">Learn more</button>
-                <button id="btn32">Pre-order</button>
+                <button id="btn31" itemprop="url">Learn more</button>
+                <button id="btn32" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="1299.00">1299</span>
+                    Pre-order
+                </button>
             </div>
         </div>
         
@@ -83,30 +97,42 @@
         </div>
     </div>
     <div id="no4">
-        <div id="no4_1">
-            <h2>iPhone16 Pro</h2>
-            <span>Hello, Apple Intellegence.</span>
+        <div id="no4_1" itemscope itemtype="http://schema.org/Product">
+            <h2 itemprop="name">iPhone16 Pro</h2>
+            <span itemprop="description">Hello, Apple Intellegence.</span>
             <div id="no4Btn">
-                <button id="btn41">Learn more</button>
-                <button id="btn42">Pre-order</button>
+                <button id="btn41" itemprop="url">Learn more</button>
+                <button id="btn42" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="1199.00">1199</span>
+                    Pre-order
+                </button>
             </div>
         </div>
-        <div id="no4_2">
-            <h2>iPhone16 Pro</h2>
-            <span>Hello, Apple Intellegence.</span>
+        <div id="no4_2" itemscope itemtype="http://schema.org/Product">
+            <h2 itemprop="name">iPhone16 Pro</h2>
+            <span itemprop="description">Hello, Apple Intellegence.</span>
             <div id="no5Btn">
-                <button id="btn51">Learn more</button>
-                <button id="btn52">Pre-order</button>
+                <button id="btn51" itemprop="url">Learn more</button>
+                <button id="btn52" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="1199.00">1199</span>
+                    Pre-order
+                </button>
             </div>
         </div>
     </div>
     <div id="no5">
-        <div id="no5_1">
-            <h2>Airpods</h2>
-            <span style="color: black;">Just listen!.</span>
+        <div id="no5_1" itemscope itemtype="http://schema.org/Product">
+            <h2 itemprop="name">Airpods</h2>
+            <span style="color: black;" itemprop="description">Just listen!.</span>
             <div id="no5Btn">
-                <button id="btn51">Learn more</button>
-                <button id="btn52">Pre-order</button>
+                <button id="btn51" itemprop="url">Learn more</button>
+                <button id="btn52" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span itemprop="priceCurrency" content="USD">$</span>
+                    <span itemprop="price" content="249.00">249</span>
+                    Pre-order
+                </button>
             </div>
         </div>
         <div id="no5_2"></div>
@@ -116,8 +142,9 @@
             <tr><td><span>1. Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to U.S. English, as part of an iOS 18, iPadOS 18, and macOS Sequoia update. English (Australia, Canada, Ireland, New Zealand, South Africa, UK) language support available this December. Some features, additional platforms, and support for additional languages, like Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese, Spanish, Vietnamese, and others, will be coming over the course of the next year.</span></td></tr>
             <tr><td><span>
                 2. Hearing Aid and Hearing Test: The Hearing Aid feature has received FDA authorization. The Hearing Test and Hearing Aid features are supported on AirPods Pro 2 with the latest firmware paired with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is intended for people with perceived mild to moderate hearing loss.</span></td></tr>
-            <tr><td><span>Hearing Protection: The Hearing Protection feature works with AirPods Pro 2 with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later. Feature is only available in the U.S. and Canada. See support.apple.com/120850 for total attenuation and more information. The Hearing Protection feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds louder than 110 dBA.</span></td></tr>
-            <tr><td><span>3. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</span></td></tr>
+            <tr><td><span>Hearing Protection: The Hearing Protection feature works with AirPods Pro 2 with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later. Feature is only available in the U.S. and Canada. See support.apple.com/120850 for total attenuation and more information. The Hearing Protection feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sound    s louder than 110 dBA.</span></td></tr>
+            <tr><td><span>3
+. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</span></td></tr>
             <tr><td><span>To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</span></td></tr>
             <tr><td><span>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.</span></td></tr>
             <tr><td><span>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</span></td></tr>
@@ -125,6 +152,29 @@
             <tr><td><span>A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.</span></td></tr>
             <tr><td><span>Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.</span></td></tr>
         </table>
+        <div id="end">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0"></script>
+            <div class="fb-like" 
+                data-href="https://your-website.com" 
+                data-width="" 
+                data-layout="standard" 
+                data-action="like" 
+                data-size="small" 
+                data-share="true">
+            </div>
+            <a href="https://twitter.com/share" 
+            class="twitter-share-button" 
+            data-text="Check out this website!" 
+            data-url="https://your-website.com" 
+            data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </div>
+    <div class="fb-comments" 
+    data-href="https://your-website.com" 
+    data-width="100%" 
+    data-numposts="5">
+</div>
 </body>
 </html>

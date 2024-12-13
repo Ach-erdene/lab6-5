@@ -411,6 +411,11 @@ nav a img{
     margin-left: 10%;
     margin-right: 10%;
 }
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     #no2 {
