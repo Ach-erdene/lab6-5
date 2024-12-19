@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Sitemap: https://ach-erdene.github.io/lab6-5/sitemap.xml
